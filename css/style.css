@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+body {
+  background: #FFFFFF;
+}
+body main {
+  background-image: url(/images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+body main .max-width {
+  max-width: 600px;
+}
+body main .max-width img {
+  margin-bottom: 20px;
+}
+body main .max-width h1 {
+  margin: 0.5em 0;
+  font-weight: 600;
+  color: hsl(210deg, 10%, 33%);
+  font-size: 2.3em;
+}
+body main .max-width p {
+  font-size: 18px;
+  margin-bottom: 1em;
+  font-weight: 400;
+  color: hsl(210deg, 10%, 33%);
+}
+body main .max-width .btn {
+  padding: 15px 30px;
+  border: none;
+  text-align: center;
+  margin: 10px 10px;
+  border-radius: 30px;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+}
+body main .max-width .one {
+  background: hsl(171deg, 66%, 44%);
+  border-bottom: 3px solid #1F9F89;
+}
+body main .max-width .two {
+  background: hsl(233deg, 100%, 69%);
+  border-bottom: 3px solid #5663C5;
+}
+body .one {
+  text-align: center;
+  padding-top: 1em;
+}
+body .one h1 {
+  font-size: 2em;
+  color: hsl(210deg, 10%, 33%);
+  font-weight: 600;
+  margin-bottom: 1em;
+}
+body .one p {
+  font-size: 18px;
+  font-weight: 400;
+  color: hsl(210deg, 10%, 33%);
+}
+body .one .item1 {
+  margin-top: 3em;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+body .one .item1 img {
+  width: 600px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body .one .item1 .about {
+  margin-top: 2em;
+  text-align: left;
+  max-width: 300px;
+}
+body .one .item1 .about h2 {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-bottom: 0.5em;
+  color: hsl(210deg, 10%, 33%);
+}
+body .one .item1 .about p {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 3em;
+}
+body .one .item2 {
+  margin-top: 4em;
+}
+body .one .item2 h1 {
+  margin-bottom: 0.5em;
+}
+body .one .item2 p {
+  margin-bottom: 4em;
+}
+body .two {
+  margin: 3em 0;
+  text-align: center;
+}
+body .two h1 {
+  font-size: 2em;
+  color: hsl(210deg, 10%, 33%);
+  font-weight: 600;
+  margin-bottom: 0.9em;
+}
+body .two p {
+  font-weight: 400;
+  color: hsl(210deg, 10%, 33%);
+  font-size: 18px;
+}
+body .two .items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  margin-top: 3em;
+}
+body .two .items .item {
+  max-width: 270px;
+  height: 150px;
+}
+body .two .items .item img {
+  margin-bottom: 1em;
+}
+body .two .items .item h3 {
+  font-weight: 600;
+  color: hsl(210deg, 10%, 33%);
+}
+body .two .items .item p {
+  font-size: 15px;
+}
+body .three {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 25px;
+  height: 200px;
+  margin-bottom: 1em;
+}
+body .four {
+  text-align: center;
+  margin: 4em 0;
+}
+body .four h1 {
+  font-size: 2em;
+  font-weight: 600;
+  margin-bottom: 0.5em;
+  color: hsl(210deg, 10%, 33%);
+}
+body .four p {
+  font-weight: 400;
+  color: hsl(210deg, 10%, 33%);
+  font-size: 18px;
+  margin-bottom: 1em;
+}
+body .four .btn {
+  padding: 15px 30px;
+  border: none;
+  text-align: center;
+  margin: 10px 10px;
+  border-radius: 30px;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+}
+body .four .one {
+  background: hsl(171deg, 66%, 44%);
+  border-bottom: 3px solid #1F9F89;
+}
+body .four .two {
+  background: hsl(233deg, 100%, 69%);
+  border-bottom: 3px solid #5663C5;
+}
+body footer {
+  height: 150px;
+  background: rgb(245, 246, 248);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+body footer .logo {
+  width: 70px;
+}
+body footer ul {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 30px;
+}
+body footer ul li {
+  list-style: none;
+}
+body footer ul li a {
+  text-decoration: none;
+  color: hsl(210deg, 10%, 33%);
+}
+body footer ul a:hover {
+  color: hsl(171deg, 66%, 44%);
+}
+body footer .link {
+  margin-left: 1em;
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+}
+body footer .link img {
+  cursor: pointer;
+  color: hsl(210deg, 10%, 33%);
+}
+body footer .link img:hover {
+  color: hsl(171deg, 66%, 44%);
+}/*# sourceMappingURL=style.css.map */
